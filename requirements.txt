@@ -4,6 +4,8 @@ langchain-core==0.3.40
 langgraph-sdk==0.1.53
 streamlit==1.32.2
 
+
+
 # Networking & Security Tools
 requests==2.32.3
 httpx==0.28.1
@@ -18,7 +20,7 @@ ffuf==1.5.1  # Ensure installed via package manager if needed
 # Logging & Utilities
 pydantic==2.10.6
 PyYAML==6.0.2
-tenacity==9.0.0
+tenacity<9  # Ensure compatibility
 jsonpatch==1.33
 msgpack==1.1.0
 
