@@ -1,4 +1,4 @@
---no-cache-dir langgraph==0.3.0
+langgraph==0.3.0
 
 langchain-core==0.3.40
 langgraph-sdk==0.1.53
