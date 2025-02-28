@@ -1,14 +1,10 @@
-# Core Dependencies
 langgraph==0.3.0
 langchain-core==0.3.40
 langgraph-sdk==0.1.53
 streamlit==1.32.2
-
-
-
-# Networking & Security Tools
 requests==2.32.3
 httpx==0.28.1
+
 
 # SQL Injection Testing
 #sqlmap==1.9.2  # Ensure sqlmap is installed globally for better CLI use
