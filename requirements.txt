@@ -1,4 +1,5 @@
-langgraph==0.3.0
+--no-cache-dir langgraph==0.3.0
+
 langchain-core==0.3.40
 langgraph-sdk==0.1.53
 streamlit==1.32.2
