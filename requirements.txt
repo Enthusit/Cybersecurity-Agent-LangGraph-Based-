@@ -1,0 +1,28 @@
+# Core Dependencies
+langgraph==0.3.0
+langchain-core==0.3.40
+langgraph-sdk==0.1.53
+streamlit==1.32.2
+
+# Networking & Security Tools
+requests==2.32.3
+httpx==0.28.1
+
+# SQL Injection Testing
+sqlmap==1.9.2  # Ensure sqlmap is installed globally for better CLI use
+
+# Wordlist & Directory Enumeration
+gobuster==3.6  # Ensure it's installed via system package manager if needed
+ffuf==1.5.1  # Ensure installed via package manager if needed
+
+# Logging & Utilities
+pydantic==2.10.6
+PyYAML==6.0.2
+tenacity==9.0.0
+jsonpatch==1.33
+msgpack==1.1.0
+
+# Testing
+pytest==7.4.4
+pytest-mock==3.12.0
+

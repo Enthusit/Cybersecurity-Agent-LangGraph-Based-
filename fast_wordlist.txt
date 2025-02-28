@@ -1,0 +1,100 @@
+# directory-list-2.3-small.txt
+#
+# Copyright 2007 James Fisher
+#
+# This work is licensed under the Creative Commons 
+# Attribution-Share Alike 3.0 License. To view a copy of this 
+# license, visit http://creativecommons.org/licenses/by-sa/3.0/ 
+# or send a letter to Creative Commons, 171 Second Street, 
+# Suite 300, San Francisco, California, 94105, USA.
+#
+# Priority ordered case sensative list, where entries were found 
+# on atleast 3 different hosts
+#
+
+index
+images
+download
+2006
+news
+crack
+serial
+warez
+full
+12
+contact
+about
+search
+spacer
+privacy
+11
+logo
+blog
+new
+10
+cgi-bin
+faq
+rss
+home
+img
+default
+2005
+products
+sitemap
+archives
+1
+09
+links
+01
+08
+06
+2
+07
+login
+articles
+support
+05
+keygen
+article
+04
+03
+help
+events
+archive
+02
+register
+en
+forum
+software
+downloads
+3
+security
+13
+category
+4
+content
+14
+main
+15
+press
+media
+templates
+services
+icons
+resources
+info
+profile
+16
+2004
+18
+docs
+contactus
+files
+features
+html
+20
+21
+5
+22
+page
+6

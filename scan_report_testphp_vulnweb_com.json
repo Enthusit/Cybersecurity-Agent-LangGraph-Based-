@@ -1,0 +1,11 @@
+{
+  "target": "testphp.vulnweb.com",
+  "start_time": "2025-02-28 11:41:30",
+  "results": {
+    "nmap": {
+      "open_ports": [],
+      "full_output": "\u274c Nmap scan failed after 3 attempts."
+    }
+  },
+  "end_time": "2025-02-28 11:43:00"
+}

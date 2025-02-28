@@ -1,0 +1,34 @@
+2025-02-28 11:10:59.912409 - Nmap scan started on example.com
+2025-02-28 11:17:17.971958 - Nmap scan started on example.com
+2025-02-28 11:22:12.880784 - Starting scan on example.com
+2025-02-28 11:22:12.881339 - Running Nmap scan on example.com
+2025-02-28 11:23:42.913628 - Nmap found open ports: None
+2025-02-28 11:23:42.915858 - Scan completed for example.com. Results saved to scan_report_example_com.json
+2025-02-28 11:24:53.686915 - Starting scan on scanme.nmap.org
+2025-02-28 11:24:53.688371 - Running Nmap scan on scanme.nmap.org
+2025-02-28 11:25:03.806011 - Nmap found open ports: 22, 80
+2025-02-28 11:25:03.806187 - Running Gobuster scan on scanme.nmap.org
+2025-02-28 11:25:08.323868 - Gobuster completed. Directories: ['\x1b[2K/images               (Status: 301) [Size: 318] [--> http://scanme.nmap.org/images/]', '\x1b[2K/index                (Status: 200) [Size: 6974]']
+2025-02-28 11:25:08.324253 - Running FFUF scan on scanme.nmap.org
+2025-02-28 11:25:09.580232 - FFUF completed. Subdomains: []
+2025-02-28 11:25:09.580389 - Running SQLMap scan on scanme.nmap.org
+2025-02-28 11:25:16.606512 - SQLMap completed. SQL vulnerabilities: ['None']
+2025-02-28 11:25:16.607940 - Scan completed for scanme.nmap.org. Results saved to scan_report_scanme_nmap_org.json
+2025-02-28 11:32:54.954459 - Starting scan on scanme.nmap.org
+2025-02-28 11:32:54.956313 - Running Nmap scan on scanme.nmap.org
+2025-02-28 11:33:10.921554 - Nmap found open ports: 22, 80
+2025-02-28 11:33:10.922015 - Running Gobuster scan on scanme.nmap.org
+2025-02-28 11:33:15.968067 - Gobuster completed. Directories: []
+2025-02-28 11:33:15.968580 - Running FFUF scan on scanme.nmap.org
+2025-02-28 11:36:16.112668 - FFUF completed. Subdomains: []
+2025-02-28 11:36:16.113769 - Running SQLMap scan on scanme.nmap.org
+2025-02-28 11:36:45.342381 - SQLMap completed. SQL vulnerabilities: ['None']
+2025-02-28 11:36:45.343848 - Scan completed for scanme.nmap.org. Results saved to scan_report_scanme_nmap_org.json
+2025-02-28 11:41:30.886876 - Starting scan on testphp.vulnweb.com
+2025-02-28 11:41:30.888224 - Running Nmap scan on testphp.vulnweb.com
+2025-02-28 11:43:00.921772 - Nmap found open ports: None
+2025-02-28 11:43:00.924954 - Scan completed for testphp.vulnweb.com. Results saved to scan_report_testphp_vulnweb_com.json
+2025-02-28 11:50:11.338176 - Starting scan on example.com
+2025-02-28 11:50:11.338607 - Running Nmap scan on example.com
+2025-02-28 11:51:41.367323 - Nmap found open ports: None
+2025-02-28 11:51:41.370862 - Scan completed for example.com. Results saved to scan_report_example_com.json
