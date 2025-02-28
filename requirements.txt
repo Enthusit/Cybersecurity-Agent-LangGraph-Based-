@@ -14,7 +14,7 @@ httpx==0.28.1
 sqlmap==1.9.2  # Ensure sqlmap is installed globally for better CLI use
 
 # Wordlist & Directory Enumeration
-gobuster==3.6  # Ensure it's installed via system package manager if needed
+#gobuster==3.6  # Ensure it's installed via system package manager if needed
 ffuf==1.5.1  # Ensure installed via package manager if needed
 
 # Logging & Utilities
