@@ -1,28 +1,11 @@
 {
   "target": "scanme.nmap.org",
-  "start_time": "2025-02-28 11:32:54",
+  "start_time": "2025-03-24 12:15:56",
   "results": {
     "nmap": {
-      "open_ports": [
-        "22",
-        "80"
-      ],
-      "full_output": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-02-28 11:32 IST\nNmap scan report for scanme.nmap.org (45.33.32.156)\nHost is up (0.36s latency).\nOther addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f\nNot shown: 94 closed tcp ports (conn-refused)\nPORT    STATE    SERVICE\n22/tcp  open     ssh\n25/tcp  filtered smtp\n80/tcp  open     http\n135/tcp filtered msrpc\n139/tcp filtered netbios-ssn\n445/tcp filtered microsoft-ds\n\nNmap done: 1 IP address (1 host up) scanned in 15.93 seconds\n"
-    },
-    "gobuster": {
-      "directories": [],
-      "full_output": "===============================================================\nGobuster v3.6\nby OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)\n===============================================================\n[+] Url:                     http://scanme.nmap.org\n[+] Method:                  GET\n[+] Threads:                 10\n[+] Wordlist:                fast_wordlist.txt\n[+] Negative Status codes:   404\n[+] User Agent:              gobuster/3.6\n[+] Timeout:                 5s\n===============================================================\nStarting gobuster in directory enumeration mode\n===============================================================\n\n"
-    },
-    "ffuf": {
-      "subdomains": [],
-      "full_output": "\u274c FFUF scan failed after 3 attempts."
-    },
-    "sqlmap": {
-      "vulnerabilities": [
-        "None"
-      ],
-      "full_output": "        ___\n       __H__\n ___ ___[)]_____ ___ ___  {1.9.2#stable}\n|_ -| . [(]     | .'| . |\n|___|_  [(]_|_|_|__,|  _|\n      |_|V...       |_|   https://sqlmap.org\n\n[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program\n\n[*] starting @ 11:36:16 /2025-02-28/\n\n[11:36:16] [INFO] loading tamper module 'between'\n[11:36:16] [INFO] loading tamper module 'space2comment'\n[11:36:16] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux i686; de; rv:1.8.0.8) Gecko/20060911 SUSE/1.5.0.8-0.2 Firefox/1.5.0.8' from file '/opt/homebrew/Cellar/sqlmap/1.9.2/libexec/data/txt/user-agents.txt'\ndo you want to check for the existence of site's sitemap(.xml) [y/N] N\n[11:36:16] [INFO] starting crawler for target URL 'http://scanme.nmap.org'\n[11:36:16] [INFO] searching for links with depth 1\n[11:36:39] [INFO] searching for links with depth 2\nplease enter number of threads? [Enter for 1 (current)] 1\n[11:36:39] [WARNING] running in a single-thread mode. This could take a while\n[11:36:44] [INFO] searching for links with depth 3\nplease enter number of threads? [Enter for 1 (current)] 1\n[11:36:44] [WARNING] running in a single-thread mode. This could take a while\ndo you want to normalize crawling results [Y/n] Y\ndo you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N\n[1/1] Form:\nGET http://scanme.nmap.org/search/?q=\ndo you want to test this form? [Y/n/q] \n> Y\nEdit GET data [default: q=]: q=\ndo you want to fill blank fields with random values? [Y/n] Y\n[11:36:45] [INFO] using '/Users/basiljoy/.local/share/sqlmap/output/results-02282025_1136am.csv' as the CSV results file in multiple targets mode\n[11:36:45] [CRITICAL] page not found (404)\n[11:36:45] [WARNING] HTTP error codes detected during run:\n404 (Not Found) - 1 times\n[11:36:45] [INFO] you can find results of scanning in multiple targets mode inside the CSV file '/Users/basiljoy/.local/share/sqlmap/output/results-02282025_1136am.csv'\n\n[*] ending @ 11:36:45 /2025-02-28/\n\n"
+      "open_ports": [],
+      "full_output": "\u274c Nmap scan failed after 3 attempts."
     }
   },
-  "end_time": "2025-02-28 11:36:45"
+  "end_time": "2025-03-24 12:15:56"
 }

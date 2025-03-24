@@ -1,11 +1,11 @@
 {
   "target": "example.com",
-  "start_time": "2025-02-28 11:50:11",
+  "start_time": "2025-03-24 12:14:45",
   "results": {
     "nmap": {
       "open_ports": [],
       "full_output": "\u274c Nmap scan failed after 3 attempts."
     }
   },
-  "end_time": "2025-02-28 11:51:41"
+  "end_time": "2025-03-24 12:14:45"
 }
